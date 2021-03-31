@@ -1,0 +1,3 @@
+﻿  List.cpp
+C:\Users\ITS-8\source\repos\SinglyList\List.h(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  SinglyList.vcxproj -> C:\Users\ITS-8\source\repos\SinglyList\Debug\SinglyList.exe
