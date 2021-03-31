@@ -1,0 +1,4 @@
+﻿  List.cpp
+C:\Users\Nabeel Bhatti\source\repos\SinglyLinkedList-CPP\List.h(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Nabeel Bhatti\source\repos\SinglyLinkedList-CPP\List.cpp(185): warning C4715: 'List::insert_after': not all control paths return a value
+  SinglyList.vcxproj -> C:\Users\Nabeel Bhatti\Source\Repos\SinglyLinkedList-CPP\x64\Debug\SinglyList.exe
