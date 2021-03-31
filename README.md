@@ -1,6 +1,6 @@
 # SinglyLinkedList-CPP
 
-Inster node:
+Insert node:
 
 Available choices
 1 for  the start 
