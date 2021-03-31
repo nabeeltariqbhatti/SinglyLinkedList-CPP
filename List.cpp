@@ -60,16 +60,16 @@ void List::display()
     }
 }
 List::~List() {
-    
-   
+    if (head) {
         Node* traverser = head;
         head = head->next;
         while (head != NULL) {
-           
-
             delete traverser;
             traverser = head;
             head = head->next;
         }
+    }
+   
+    
     
 }
