@@ -4,7 +4,35 @@ List::List()
 {
     head = tail = NULL;
 }
-
+bool List::delete_node(int node_number_to_del) {
+    if (!head) {
+        return false;
+    }
+    else {
+        if (node_number_to_del == 1)
+        {
+            head = NULL;
+            tail = NULL;
+            return true;
+            
+        }
+        else {
+            int counter = 1;
+            Node* t = head;
+            while (t != NULL) {
+                if (counter == node_number_to_del - 1) {
+                    Node* temp = t->next;
+                    t->next = temp->next;
+                    delete temp;
+                    return true;
+                }
+                t = t->next;
+                counter++;
+            }
+        }
+       
+    }
+}
 bool List::create_node(string name, int id, int age, float gpa)
 {
 
@@ -39,7 +67,7 @@ void List::display()
 {
     if (!head)
     {
-        cout << "Linked List does not exist";
+        cout << "Linked List does not exist" << endl;;
     }
     else
     {

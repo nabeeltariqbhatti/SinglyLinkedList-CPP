@@ -14,6 +14,7 @@ public:
 	bool insert_at_tail(string name, int id, int age, float gpa);
 	bool insert_after(string name, int id, int age, float gpa, int after);
 	bool insert_before(string name, int id, int age, float gpa, int before);
+	bool delete_node(int node_number_to_del);
 	int getsizeOfList();
 	void display();
 	~List();
